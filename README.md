@@ -3,7 +3,7 @@
 Esta é uma API RESTful desenvolvida com Express e SQLite (Sequelize) para o gerenciamento de tarefas (To-Do list).
 
 ## 🤝 Integração com Frontend
-Esta API foi projetada para integrar perfeitamente com o frontend [CoreNotes](link repo). As respostas da API seguem exatamente o formato esperado pelo frontend.
+Esta API foi projetada para integrar perfeitamente com o frontend [front-end-core-challenge](https://github.com/Lkaazz/front-end-core-challenge). As respostas da API seguem exatamente o formato esperado pelo frontend.
 
 #### ⚠️ Não se esqueça de configurá-lo primeiro
 
@@ -15,7 +15,7 @@ Esta API foi projetada para integrar perfeitamente com o frontend [CoreNotes](li
 - Filtrar tarefas por texto
 
 ### Instalação
-0. Com o repositório front-end [fornte-end-core-challenge](https://github.com/Lkaazz/front-end-core-challenge) já preparado.
+0. Com o repositório front-end [front-end-core-challenge](https://github.com/Lkaazz/front-end-core-challenge) já preparado.
 1. Clone ou baixe este repositório
 
 2. Instale as dependências:
