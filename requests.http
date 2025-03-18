@@ -1,0 +1,44 @@
+### Verificar se a API está funcionando
+GET http://localhost:3333/
+Accept: application/json
+
+### Listar todas as tarefas
+GET http://localhost:3333/api/tasks
+Accept: application/json
+
+### Filtrar tarefas por texto
+GET http://localhost:3333/api/tasks?search=reunião
+Accept: application/json
+
+### Criar nova tarefa
+POST http://localhost:3333/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Reunião de planejamento",
+  "body": "Discutir metas para o próximo trimestre",
+  "favorite": false,
+  "color": "#3498db"
+}
+
+### Obter tarefa específica (substitua ID pelo número da tarefa)
+GET http://localhost:3333/api/tasks/1
+Accept: application/json
+
+### Atualizar tarefa existente (substitua ID pelo número da tarefa)
+PUT http://localhost:3333/api/tasks/1
+Content-Type: application/json
+
+{
+  "title": "Reunião de planejamento atualizada",
+  "body": "Nova descrição para a reunião",
+  "favorite": true,
+  "color": "#e74c3c"
+}
+
+### Alternar status de favorito (substitua ID pelo número da tarefa)
+PATCH http://localhost:3333/api/tasks/1/favorite
+Accept: application/json
+
+### Remover tarefa (substitua ID pelo número da tarefa)
+DELETE http://localhost:3333/api/tasks/1 
