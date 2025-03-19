@@ -23,7 +23,7 @@ Esta API foi projetada para integrar perfeitamente com o [front-end-core-challen
 npm install
 ```
 ```bash
-npm install express, nodemon, cors, sequelize
+npm install express, nodemon, cors, sequelize, sqlite3
 ```
 
 3. Inicie o servidor:
