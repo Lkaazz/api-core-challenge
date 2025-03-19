@@ -15,12 +15,15 @@ Esta API foi projetada para integrar perfeitamente com o [front-end-core-challen
 - Filtrar tarefas por texto
 
 ### Instalação
-0. Com o repositório front-end [front-end-core-challenge](https://github.com/Lkaazz/front-end-core-challenge) já preparado.
+0. Com o repositório [front-end-core-challenge](https://github.com/Lkaazz/front-end-core-challenge) já preparado.
 1. Clone ou baixe este repositório
 
 2. Instale as dependências:
 ```bash
 npm install
+```
+```bash
+npm install express, nodemon, cors, sequelize
 ```
 
 3. Inicie o servidor:
@@ -42,6 +45,7 @@ A API já está configurada para funcionar com o [front-end](https://github.com/
 - **SQLite**: Banco de dados leve e sem servidor
 - **Sequelize**: ORM para Node.js
 - **Nodemon**: Reinicialização automática do servidor durante desenvolvimento
+- **Cors**
 
 ## 📊 Banco de Dados
 
